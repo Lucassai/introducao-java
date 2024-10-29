@@ -1,3 +1,5 @@
+//
+
 import java.util.Scanner;
 
 public class Atividade1 {
@@ -8,10 +10,13 @@ public class Atividade1 {
 
         System.out.println("Digite o salário");
         salario = leia.nextFloat();
+
         System.out.println("Digite o abono");
         abono = leia.nextFloat();
+
         novoSalario = salario+abono;
         System.out.println("Seu novo salário é " + novoSalario);
 
+        leia.close();
     }
 }
